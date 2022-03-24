@@ -3,8 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Passing Barriers Game</title>
+
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="assets/css/styles.css" rel="stylesheet">
+
 </head>
 <body>
 
+<!--for container-->
+<section id="container">
+
+    <!--for dog-->
+    <div>
+        <img height="50px" src="assets/images/dog.png" width="50px">
+    </div>
+
+    <!--for up pole-->
+    <div class="pole" id="upPole"></div>
+
+    <!--for down pole-->
+    <div class="pole" id="downPole"></div>
+
+</section>
+
+<!--for score and speed section-->
+<section id="scoreBoard">
+
+    <p><b>Score : </b><span id="score">0</span></p>
+    <p><b>Speed : </b><span id="speed">10</span></p>
+
+</section>
+
+<!--for button section-->
+<section>
+    <button id="reStartBtn">Restart</button>
+</section>
+
+<script src="assets/jQuery/jquery-3.6.0.min.js"></script>
+<script src="controller/indexPageController.js"></script>
 </body>
 </html>
