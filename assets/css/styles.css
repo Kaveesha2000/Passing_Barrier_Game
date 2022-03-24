@@ -1,0 +1,61 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#container {
+    position: relative;
+    height: 50vh;
+    width: 99.7vw;
+    border: 2px solid crimson;
+    background-color: lightslategrey;
+    overflow: hidden;
+}
+
+#dog {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 20%;
+}
+
+.pole{
+    position: absolute;
+    height: 120px;
+    width: 50px;
+    background-color: brown;
+    right: 400px;
+}
+
+#upPole{
+    top: 0;
+}
+
+#downPole{
+    bottom: 0;
+}
+
+#scoreBoard{
+    text-align: center;
+    font-size: 30px;
+}
+
+#reStartBtn{
+    position: absolute;
+    width: 200px;
+    padding: 20px;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 5px solid black;
+    /*display: none;*/
+}
+
