@@ -11,12 +11,10 @@
 <body>
 
 <!--for container-->
-<section id="container">
+<div id="container">
 
     <!--for dog-->
-    <div>
-        <img src="assets/images/dog.png" id="dog">
-    </div>
+    <div id="dog"></div>
 
     <!--for up pole-->
     <div id="upPole" class="pole"></div>
@@ -24,20 +22,18 @@
     <!--for down pole-->
     <div id="downPole" class="pole"></div>
 
-</section>
+</div>
 
 <!--for score and speed section-->
-<section id="scoreBoard">
+<div id="scoreBoard">
 
     <p><b>Score : </b><span id="score">0</span></p>
     <p><b>Speed : </b><span id="speed">10</span></p>
 
-</section>
+</div>
 
 <!--for button section-->
-<section>
     <button id="reStartBtn">Restart</button>
-</section>
 
 <script src="assets/jQuery/jquery-3.6.0.min.js"></script>
 <script src="controller/indexPageController.js"></script>
