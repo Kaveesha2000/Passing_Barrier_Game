@@ -1,41 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8" />
     <title>Passing Barriers Game</title>
 
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="assets/css/styles.css" rel="stylesheet">
-
+    <link href="assets/css/styles.css" rel="stylesheet" />
 </head>
-<body>
 
-<!--for container-->
+<body>
 <div id="container">
 
-    <!--for dog-->
+    <!--dog div-->
     <div id="dog"></div>
 
-    <!--for up pole-->
-    <div id="upPole" class="pole"></div>
-
-    <!--for down pole-->
-    <div id="downPole" class="pole"></div>
+    <!--up and down poles-->
+    <div id="pole_1" class="pole"></div>
+    <div id="pole_2" class="pole"></div>
 
 </div>
 
-<!--for score and speed section-->
-<div id="scoreBoard">
-
-    <p><b>Score : </b><span id="score">0</span></p>
-    <p><b>Speed : </b><span id="speed">10</span></p>
-
+<!--score board-->
+<div id="score_div">
+    <p><b>Score: </b><span id="score">0</span></p>
+    <p><b>Speed: </b><span id="speed">10</span></p>
 </div>
 
-<!--for button section-->
-    <button id="reStartBtn">Restart</button>
+<!--restart button-->
+<button id="restart_btn">Restart</button>
 
 <script src="assets/jQuery/jquery-3.6.0.min.js"></script>
 <script src="controller/indexPageController.js"></script>
 </body>
 </html>
+
