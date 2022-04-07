@@ -2,7 +2,7 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
-    background-color: black;
+    background-image: url("../images/fullbackground.jpg");
 }
 
 #container {
@@ -10,8 +10,8 @@ body {
     width: 97.5vw;
     margin: 1%;
     height: 60vh;
-    border: 2px solid crimson;
-    background-color: lightslategrey;
+    border: 2px solid #0c2461;
+    background-image: url("../images/background.png");
     overflow: hidden;
 }
 
@@ -30,7 +30,7 @@ body {
     position: absolute;
     height: 130px;
     width: 50px;
-    background-color: red;
+    background-color: #227093;
     right: -50px;
 }
 
@@ -45,7 +45,7 @@ body {
 #score_div {
     text-align: center;
     font-size: 30px;
-    color: white;
+    color: #0c2461;
 }
 
 #restart_btn {
