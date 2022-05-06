@@ -63,4 +63,9 @@ body {
     display: none;
 }
 
+#audio {
+    margin-left: 1vw;
+    margin-top: 0;
+}
+
 
